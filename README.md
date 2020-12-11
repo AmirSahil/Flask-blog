@@ -79,7 +79,7 @@ Our next step would be to follow the instruction given on [Heroku Documentation]
 
 ![](https://forthebadge.com/images/badges/made-with-python.svg)
 
-[<img target="_blank" src="https://flask.palletsprojects.com/en/1.1.x/_images/flask-logo.png" width=170>](https://flask.palletsprojects.com/en/1.1.x/) [<img target="_blank" src="https://number1.co.za/wp-content/uploads/2017/10/gunicorn_logo-300x85.png" width=280>](https://gunicorn.org) [<img target="_blank" src="https://www.google.com/imgres?imgurl=https%3A%2F%2Fwww.linuxfoundation.org%2Fwp-content%2Fuploads%2F2019%2F10%2FNGINX-Part-of-F5-stacked-logo-01.svg&imgrefurl=https%3A%2F%2Fwww.linuxfoundation.org%2Fmembers%2Facaisoft%2Fattachment%2Fnginx-part-of-f5-stacked-logo-01%2F&tbnid=d4eQSUQK0V9zmM&vet=12ahUKEwiKuJbll8btAhXZFHIKHU44APoQMygGegUIARC0AQ..i&docid=bFO8quOASsR4vM&w=800&h=490&q=nginx%20logo&client=firefox-b-d&ved=2ahUKEwiKuJbll8btAhXZFHIKHU44APoQMygGegUIARC0AQ" width=280>](https://gunicorn.org)
+[<img target="_blank" src="https://flask.palletsprojects.com/en/1.1.x/_images/flask-logo.png" width=170>](https://flask.palletsprojects.com/en/1.1.x/) [<img target="_blank" src="https://number1.co.za/wp-content/uploads/2017/10/gunicorn_logo-300x85.png" width=280>](https://gunicorn.org) [<img target="_blank" src="https://www.nginx.com/wp-content/uploads/2018/08/NGINX-logo-rgb-large.png" width=280>](https://gunicorn.org)
 
 ## Bug / Feature Request
 
