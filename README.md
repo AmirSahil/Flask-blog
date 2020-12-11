@@ -25,31 +25,9 @@ This is a Flask web app to create social blog posts.
 What to do when you are at home due to this pandemic situation? I started to learn Machine Learning model to get most out of it. I came to know mathematics behind all supervised models. Finally it is important to work on application (real world application) to actually make a difference. -->
 
 ## Installation
-The Code is written in Python 3.9.0. If you don't have Python installed you can find it [here](https://www.python.org/downloads/). If you are using a lower version of Python you can upgrade using the pip package, ensuring you have the latest version of pip. To install the required packages and libraries, run the following commands in the project directory after [cloning](https://www.howtogeek.com/451360/how-to-clone-a-github-repository/) the repository:
-
-Activate virtual environment
+The Code is written in Python 3.9.0. If you don't have Python installed you can find it [here](https://www.python.org/downloads/). If you are using a lower version of Python you can upgrade using the pip package, ensuring you have the latest version of pip. To install the required packages and libraries, run this command in the project directory after cloning the repository:
 ```bash
-source environments/flask_env/bin/activate
-```
-
-Install Flask
-```bash
-pip install flask
-```
-
-Install Flask WTF
-```bash
-pip install Flask-WTF
-```
-
-Install Email Validator
-```bash
-pip install email-validator
-```
-
-Run the app
-```bash
-python3 flaskblog.py
+pip install -r requirements.txt
 ```
 
 <!-- ## Deployement on Heroku
@@ -61,18 +39,23 @@ Our next step would be to follow the instruction given on [Heroku Documentation]
 
 ## Directory Tree 
 ```
-├── environments 
-│   ├── flask_env
-├── static
-│   ├── main.css
-├── templates
-│   ├── about.css
-│   ├── home.css
-│   ├── layout.css
-│   ├── register.css    
 ├── README.md
-├── flaskblog.py
-├── forms.py
+├── flaskblog
+│   ├── __init__.py
+│   ├── forms.py
+│   ├── models.py
+│   ├── routes.py
+│   ├── site.db
+│   ├── static
+│   │   └── style.css
+│   └── templates
+│       ├── about.html
+│       ├── home.html
+│       ├── layout.html
+│       ├── login.html
+│       └── register.html
+├── requirements.txt
+└── run.py
 ```
 
 ## Technologies Used

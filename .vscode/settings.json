@@ -4,7 +4,8 @@
         "--load-plugins",
         "flask_sqlalchemy",
         "flask",               
-    ]
+    ],
+    "python.pythonPath": "/Library/Frameworks/Python.framework/Versions/3.9/bin/python3"
 }
 
 // user_2 = User(username='dheeraj', email='dheeraj@demo.com', password='password')
