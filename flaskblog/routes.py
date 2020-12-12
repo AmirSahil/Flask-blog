@@ -23,7 +23,7 @@ posts = [
 @app.route('/')
 @app.route('/home')
 def home():
-    return render_template('home.html', blogposts=posts)
+    return render_template('home.html', title='Home', blogposts=posts)
 
 @app.route('/about')
 def about():
@@ -62,3 +62,7 @@ def login():
 def logout():
     logout_user()
     return redirect(url_for('home'))
+
+@app.route('/account')
+def account():
+    return render_template('account.html', title='Account')
