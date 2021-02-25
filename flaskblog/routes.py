@@ -21,7 +21,9 @@ posts = [
         'date_posted' : '12th December 2020'
     }
 ]
-
+@app.route('/hello')
+def hello():
+    return render_template('hello.html', title='Hello', blogposts=posts)
 
 @app.route('/')
 @app.route('/home')
